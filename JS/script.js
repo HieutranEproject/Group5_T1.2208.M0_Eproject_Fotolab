@@ -42,24 +42,9 @@ window.onscroll = () =>{
 }
 
 //Send email
-function sendEmail(nameSendEmail,subSendEmail,contSendEmail){
-    var fullname=document.getElementById("nameSendEmail");
-    var sub=document.getElementById("subSendEmail");
-    var cont=document.getElementById("contSendEmail");
-    if(fullname==""){
-        alert("Type your name")
-        return;
-    }
-    if(sub==""){
-        alert("Type your subject")
-        return;
-    }if(cont==""){
-        alert("Type your request")
-        return;
-    }if(fullname!="" && sub!="" && cont!=""){
-        window.location.href="mailto:tranthienhieu146@gmail.com & subject=${sub} & content=${cont}"
-    }
-}
+function sendEmail(){
+  window.location.href="mailto:tranthienhieu146@gmail.com"
+ }
 
 
     
