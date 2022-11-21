@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/CSS/style.css">
+ <!--boostraps-->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html" class="logo"><span style="color:#fff">FOTO</span><span style="color:red">LAB</span> </a>
+
+    <nav class="navbar">
+      <ul class="nav justify-content-center">
+  
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="product.html" style="margin-top:0px ;">PRODUCTS</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="../HTML/product-camera.html" style="margin-top:0px ;">Camera</a>
+                  <a class="dropdown-item" href="../HTML/product-lens.html"style="margin-top:0px ;">Lens</a>
+                  <a class="dropdown-item" href="../HTML/product-accessories.html"style="margin-top:0px ;">Accessories</a></div>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">ABOUT US</a>
+          </li>
+  </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div st id="login-btn" class="fas fa-user"><span style="color:white; font-size:x-small" class="user-name" id="user-name"> </span></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+ 
+    <form onsubmit="store()" action="" class="login-form" style="background-color:#2f3142 ;">
+        <h3 style="color:#fff ;">User Name</h3>
+        <input type="text" placeholder="enter your User Name" class="box" id="uname">
+        <h3 style="color:#fff ;">Password</h3>
+        <input type="password" placeholder="enter your password" class="box">
+        <div class="sign">
+       <button type="submit" style="color:black ;background-color:#ffA629 ;font-size: 15px;border-radius: 15px;font-weight:bold ;padding-left:15px  ;padding-right: 15px;">Sign in</button><br><br>
+       <a href="register.html"><span style="color:black ;background-color:#ffCD29 ;font-size: 15px;border-radius: 15px;font-weight:bold ;padding-left:15px  ;padding-right: 15px;">Sign up</span></a>
+    <p style="color:#1C6BAB ;font-weight:bold;">Forgotten your password?</p>
+    </div>
+  
+  
+       
+    </form>
+
+</header>
+
+<section class="compare" style="background-color:#252734  ;">
+    <div class="row" id="compare-detail" style="color:white ;"> </div>
+    <h2 style="text-align:center;color: white;">Product Comparison</h2> 
+    <div class="row">
+        <div class="col-sm-4"><img src="../IMAGE/test/d1fba80eb5ff3fcd03d918e3e9f4b4cd.jpg" alt="" ></div>
+        <div class="col-sm-4"><img src="../IMAGE/test/d1fba80eb5ff3fcd03d918e3e9f4b4cd.jpg" alt=""></div>
+        <div class="col-sm-4"><img src="../IMAGE/test/d1fba80eb5ff3fcd03d918e3e9f4b4cd.jpg" alt=""></div>
+    </div>
+   
+    <h2 style="text-align:center;color: white;">Detail Information</h2>
+    <div class="row">
+        <div class="col-sm-4" style="background-color:#2f3241 ;">
+            <p>ID Product:</p>
+            <p>Quantity:</p>
+            <p>Rate:</p>
+            <p>Price:</p>
+            <p>Description:</p>
+        </div>
+        <div class="col-sm-4" style="background-color:#2f3241 ;">
+            <p>ID Product:</p>
+            <p>Quantity:</p>
+            <p>Rate:</p>
+            <p>Price:</p>
+            <p>Description:</p>
+        </div>
+        <div class="col-sm-4" style="background-color:#2f3241 ;">
+            <p>ID Product:</p>
+            <p>Quantity:</p>
+            <p>Rate:</p>
+            <p>Price:</p>
+            <p>Description:</p>
+        </div>
+       
+    </div>
+    <h2 style="text-align:center;color: white;">Price - Features</h2>
+    <div class="row">
+        <div class="col-sm-4" style="background-color:#2f3241 ;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam </p>
+            
+        </div>
+        <div class="col-sm-4" style="background-color:#2f3241 ;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam </p>
+            
+        </div>
+        <div class="col-sm-4" style="background-color:#2f3241 ;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam </p>
+            
+        </div>
+       
+    </div>
+</section>
+
+
+
+<!-- footer section starts  -->
+<section class="other">
+
+    <div class="title1">
+
+        <div class="case">
+            <h3>Payment Option</h3>
+            <a href="#"> 
+              <img src="../IMAGE/pay1.jpg" alt="" style="width: 60px; height: 30px">
+              <img src="../IMAGE/pay2.jpg" alt="" style="width: 60px; height: 30px">
+              <img src="../IMAGE/pay3.jpg" alt="" style="width: 60px; height: 30px">
+            </a>
+        </div>
+
+        <div class="case">
+            <h3>Delivery Partners</h3>
+            <a href="#">
+            <img src="../IMAGE/deli1.jpg" alt="" style="width: 60px; height: 30px">
+            <img src="../IMAGE/deli2.jpg" alt="" style="width: 60px; height: 30px">
+            <img src="../IMAGE/deli3.jpg" alt="" style="width: 60px; height: 30px">
+            </a>
+        </div>
+
+        <div class="case">
+            <h3>Quality and Safety</h3>
+            <a href="#">
+              <img src="../IMAGE/qua1.jpg" alt="" style="width: 60px; height: 30px">
+              <img src="../IMAGE/qua2.jpg" alt="" style="width: 60px; height: 30px">
+              <img src="../IMAGE/qua3.jpg" alt="" style="width: 60px; height: 30px">
+              </a>
+        </div>
+        <div class="case">
+            <h3>Subtainability At CEWES</h3>
+            <a href="#">
+              <img src="../IMAGE/sub1.jpg" alt="" style="width: 60px; height: 30px">
+              <img src="../IMAGE/sub2.jpg" alt="" style="width: 60px; height: 30px">
+              <img src="../IMAGE/sub3.jpg" alt="" style="width: 60px; height: 30px">
+              </a>
+        </div>
+    </div>
+
+</section>
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>WHERE TO BUY</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> See Authorized Retailers</a>
+        </div>
+
+        <div class="box">
+            <h3>COMPANY</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> About us </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Privay Policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Partners </a>
+        </div>
+
+        <div class="box">
+            <h3>SUPPORT</h3>
+            <a href="#">  <i class="fas fa-arrow-right"></i>Contact us</a>
+        </div>
+        <div class="box">
+            <h3>OUR PRODUCTS</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> New Release </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Cameras </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Lens</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Accessories </a>
+        </div>
+    </div>
+    <ul class="sci">
+        <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+        <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+        <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+        <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
+    </ul>
+</section>
+
+<section class="credit">
+    &copy;Copyrights@NHTS Team
+</section>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+<!-- footer section ends -->
+<!-- custom css file link  -->
+<script src="../JS/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+<!-- <i class='bx bxl-visa'></i>
+<i class='bx bxl-mastercard' ></i>
+-->
+
+
+
+
+
