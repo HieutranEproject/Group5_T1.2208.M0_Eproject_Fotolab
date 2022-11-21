@@ -245,7 +245,7 @@ function productDetail(){
             switch(v.rate){
               case 0:{
                 d += `
-            <div class="row" id="productDetail" style="color:white ;"> </div>
+            <div class="row" id="productDetail" style="color:white ;"><img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"> </div>
   
             <div class="container-fluid mt-3">
                
@@ -351,7 +351,7 @@ function productDetail(){
               }
               case 1:{
                 d += `
-            <div class="row" id="productDetail" style="color:white ;"> </div>
+            <div class="row" id="productDetail" style="color:white ;"><img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"> </div>
   
             <div class="container-fluid mt-3">
                
@@ -457,7 +457,7 @@ function productDetail(){
               }
               case 2:{
                 d += `
-            <div class="row" id="productDetail" style="color:white ;"> </div>
+            <div class="row" id="productDetail" style="color:white ;"><img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"> </div>
   
             <div class="container-fluid mt-3">
                
@@ -562,7 +562,7 @@ function productDetail(){
               }
               case 3:{
                 d += `
-            <div class="row" id="productDetail" style="color:white ;"> </div>
+            <div class="row" id="productDetail" style="color:white ;"><img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"> </div>
   
             <div class="container-fluid mt-3">
                
@@ -667,7 +667,7 @@ function productDetail(){
               }
               case 4:{
                 d += `
-            <div class="row" id="productDetail" style="color:white ;"> </div>
+            <div class="row" id="productDetail" style="color:white ;"><img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"> </div>
   
             <div class="container-fluid mt-3">
                
@@ -772,7 +772,7 @@ function productDetail(){
               }
               case 5:{
                 d += `
-            <div class="row" id="productDetail" style="color:white ;"> </div>
+            <div class="row" id="productDetail" style="color:white ;"><img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"> </div>
   
             <div class="container-fluid mt-3">
                
