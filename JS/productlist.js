@@ -254,8 +254,8 @@ function productDetail(){
                   <div class="product-image">
                       <img id="expandedImg" style="width:50%">
                     </div>
-                    <h4>${v.name.toUpperCase()}</h4><br>
 		    <img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"><br>
+		    <h4>${v.name.toUpperCase()}</h4><br>
                     <span class="fa fa-star " style="font-size: 15px;"></span>
                         <span class="fa fa-star" style="font-size: 15px;"></span>
                         <span class="fa fa-star" style="font-size: 15px;"></span>
@@ -361,8 +361,8 @@ function productDetail(){
                   <div class="product-image">
                       <img id="expandedImg" style="width:50%">
                     </div>
-                    <h4>${v.name.toUpperCase()}</h4><br>
-		    <img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"><br>
+                    <img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"><br>
+		    <h4>${v.name.toUpperCase()}</h4><br>
                     <span class="fa fa-star checked" style="font-size: 15px;"></span>
                         <span class="fa fa-star " style="font-size: 15px;"></span>
                         <span class="fa fa-star" style="font-size: 15px;"></span>
@@ -468,8 +468,8 @@ function productDetail(){
                   <div class="product-image">
                       <img id="expandedImg" style="width:50%">
                     </div>
-                    <h4>${v.name.toUpperCase()}</h4><br>
-		    <img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"><br>
+                    <img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"><br>
+		    <h4>${v.name.toUpperCase()}</h4><br>
                     <span class="fa fa-star checked" style="font-size: 15px;"></span>
                         <span class="fa fa-star checked" style="font-size: 15px;"></span>
                         <span class="fa fa-star " style="font-size: 15px;"></span>
@@ -574,8 +574,8 @@ function productDetail(){
                   <div class="product-image">
                       <img id="expandedImg" style="width:50%">
                     </div>
-                    <h4>${v.name.toUpperCase()}</h4><br>
-		    <img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"><br>
+                     <img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"><br>
+		    <h4>${v.name.toUpperCase()}</h4><br>
                     <span class="fa fa-star checked" style="font-size: 15px;"></span>
                         <span class="fa fa-star checked" style="font-size: 15px;"></span>
                         <span class="fa fa-star checked" style="font-size: 15px;"></span>
@@ -680,8 +680,8 @@ function productDetail(){
                   <div class="product-image">
                       <img id="expandedImg" style="width:50%">
                     </div>
-                    <h4>${v.name.toUpperCase()}</h4><br>
-		    <img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"><br>
+                    <img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"><br>
+		    <h4>${v.name.toUpperCase()}</h4><br>
                     <span class="fa fa-star checked" style="font-size: 15px;"></span>
                         <span class="fa fa-star checked" style="font-size: 15px;"></span>
                         <span class="fa fa-star checked" style="font-size: 15px;"></span>
@@ -786,8 +786,8 @@ function productDetail(){
                   <div class="product-image">
                       <img id="expandedImg" style="width:50%">
                     </div>
-                    <h4>${v.name.toUpperCase()}</h4><br>
-		    <img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"><br>
+                    <img src="../IMAGE/${v.pic}" alt="Nature" style="width:30%" onclick="myFunction(this);" class="productImage"><br>
+		    <h4>${v.name.toUpperCase()}</h4><br>
                     <span class="fa fa-star checked" style="font-size: 15px;"></span>
                         <span class="fa fa-star checked" style="font-size: 15px;"></span>
                         <span class="fa fa-star checked" style="font-size: 15px;"></span>
