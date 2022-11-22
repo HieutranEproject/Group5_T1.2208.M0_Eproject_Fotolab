@@ -190,6 +190,7 @@ var shoppingCart = (function() {
                     <th>Pic</th>
                     <th>Name</th>
                     <th>Price</th>
+		    <th></th>
                     <th>Quantity</th>
                     <th> </th>
                     <th>Total</th>
