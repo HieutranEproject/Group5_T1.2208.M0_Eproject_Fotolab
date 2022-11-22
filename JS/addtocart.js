@@ -194,7 +194,13 @@ var shoppingCart = (function() {
                     <th> </th>
                     <th>Total</th>
                   </tr>`;
-		var summary=``
+		var summary=`<tr>
+    <th>Name</th>
+  
+    <th>Quantity</th>
+    <th> </th>
+    <th>Total</th>
+  </tr>`;
 	  $.each(cartArray, function (k, v) {
 
 		  output += `<tr>
@@ -210,15 +216,13 @@ var shoppingCart = (function() {
 
                 
       summary +=`<tr>
-      <td rowspan="3" ><img src="../IMAGE/${v.pic}" style="width:50%"></td>          
-      <td>${v.name.toUpperCase()}</td>
-                </tr>
-                <tr>
-                  <td>${v.price}</td>
-                </tr>
-                <tr>
-                  <td>${v.count}</td>
-                </tr>`
+      <th>${v.name.toUpperCase()}</th>
+    
+      <th>${v.count}</th>
+      <th> </th>
+      <th>${v.total}</th>
+    </tr>
+    `
 
     });
     /*for(var i in cartArray) {
