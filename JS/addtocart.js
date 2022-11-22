@@ -18,16 +18,16 @@ var shoppingCart = (function() {
     
     // Save cart
     function saveCart() {
-      localStorage.setItem('shoppingCart', JSON.stringify(cart));
+      sessionStorage.setItem('shoppingCart', JSON.stringify(cart));
     }
     
       // Load cart
     function loadCart() {
-      cart = JSON.parse(localStorage.getItem('shoppingCart'));
+      cart = JSON.parse(sessionStorage.getItem('shoppingCart'));
     }
 	
 	
-    if (localStorage.getItem("shoppingCart") != null) {
+    if (sessionStorage.getItem("shoppingCart") != null) {
       loadCart();
     }
     
