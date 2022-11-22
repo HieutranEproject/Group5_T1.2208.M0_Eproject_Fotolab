@@ -203,13 +203,13 @@ var shoppingCart = (function() {
   </tr>`;
 	  $.each(cartArray, function (k, v) {
 
-		  output += `<tr>
+		 output += `<tr>
                 <td><img src="../IMAGE/${v.pic}" style="width:50%"></td>
                 <td>${v.name.toUpperCase()}</td>
                 <td>${v.price}</td>
-                <td><div class='input-group'><span class='minus-item input-group-addon btn btn-primary' data-name="${v.name}">-</span>
-                    <input type='number' class='item-count form-control' data-name="${v.name}" value="${v.count}">
-                    <span class='plus-item input-group-addon btn btn-primary' data-name="${v.name}">+</span></div></td>
+                <td><div class='input-group'><span class='minus-item input-group-addon btn ' data-name="${v.name}">-</span></div>
+                 <td><div class="input-group" ><input style="" type='number' class='item-count form-control' data-name="${v.name}" value="${v.count}"></td>
+                 <td><div class='input-group'><span class='plus-item input-group-addon btn ' data-name="${v.name}">+</span></div></td>
                 <td><button class='delete-item btn btn-danger' data-name="${v.name}">X</button></td>
                 <td>${v.total}</td>
                 </tr>`
