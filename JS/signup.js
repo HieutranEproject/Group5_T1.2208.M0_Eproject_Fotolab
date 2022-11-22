@@ -32,6 +32,9 @@ function login(e){
     if(username=='' || password==''){
         alert("please enter your username and password");
     }
+    else if(user==null){
+        alert("Your account does not exist, please register or check your username and password");
+    }
     else if(username==data.username && password!=data.password){
         alert("Wrong password, please check and enter your password again");
     }
@@ -40,8 +43,6 @@ function login(e){
         sessionStorage.setItem("uname",username)
         
         document.getElementById("user-name").innerHTML=sessionStorage.uname;
-    }else if(username!=data.username){
-        alert("Your account does not exist, please register or check your username and password");
-    }
+    }   
      
 }
