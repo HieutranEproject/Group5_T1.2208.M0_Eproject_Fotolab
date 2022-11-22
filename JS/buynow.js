@@ -25,6 +25,7 @@ function showInfo(){
         var result = confirm("Thank you for purchasing our product(s) at FOTOLAB! Your payment has been confirmed \nOrders will be delivered within 30 days");
         if (result){
             window.location.href="../HTML/home.html";
+            sessionStorage.removeItem("shoppingCart");
         }
 
   return false;
