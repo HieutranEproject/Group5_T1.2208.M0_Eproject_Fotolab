@@ -736,8 +736,8 @@ th{
   
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-9 col-md-6 col-lg-8  text-white" style="background-color:#252734">
-        <h1 id="billing">BILLING INFO</h1>
+      <div class="col-sm-9 col-md-6 col-lg-8  text-white" style="background-color:#252734;border-radius: 5%">
+        <h1 id="billing">BILLING INFO</h1><hr>
         <form onsubmit="return showInfo()">
     <div class="billbody">
         <div class="bill">
@@ -813,7 +813,7 @@ th{
         </div>
     </div>
     <div class="billcard">
-        <div>
+        <div><hr>
             <h2 id="pnc">Other notes</h2>
             <h2>need something else? We will make it for you</h2>
             <textarea name="" id="" cols="50%" rows="7%"></textarea>
@@ -826,10 +826,13 @@ th{
     </div>
       </div>
       
-        <div class="col-sm-3 col-md-6 col-lg-4  text-white" style="background-color:#2f3142 ;text-align:right">
-            <h1 >Order Summary</h1>
-            <table class="show-ordersummary table" style="color: white; font-size: large;text-align: left;"></table>
+        <div class="col-sm-3 col-md-6 col-lg-4  text-white" style="background-color:#252734 ;text-align:right;border-radius: 5%; ">
+            <h1 >Order Summary</h1><hr>
+            <table class="show-ordersummary table" style="color: white; font-size: large;text-align: left;"></table><hr>
+            <h2 style="color:red ;">Total: $ <span class="total-tong"></span> </h2>
+            <h4 style="color: red;">(included:tax,shipping fee)</h4>
             </div>
+            
           </form>   
 
         </div>
