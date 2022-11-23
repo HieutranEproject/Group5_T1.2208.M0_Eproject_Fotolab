@@ -230,9 +230,9 @@ var shoppingCart = (function() {
       output += `<tr>
                 <td>${cartArray[i].name.toUpperCase()}</td>
                 <td>${cartArray[i].price}</td>
-                <td><div class='input-group'><span class='minus-item input-group-addon btn btn-primary' data-name="${cartArray[i].name}">-</span>
+                <td><div class='input-group'><span style="border-radius:10px;text-align:center;" class='minus-item input-group-addon btn btn-primary' data-name="${cartArray[i].name}">-</span>
                     <input type='number' class='item-count form-control' data-name="${cartArray[i].name}" value="${cartArray[i].count}">
-                    <span class='plus-item input-group-addon btn btn-primary' data-name="${cartArray[i].name}">+</span></div></td>
+                    <span style="border-radius:10px;text-align:center;" class='plus-item input-group-addon btn btn-primary' data-name="${cartArray[i].name}">+</span></div></td>
                 <td><button class='delete-item btn btn-danger' data-name="${cartArray[i].name}">X</button></td>
                 <td>${cartArray[i].total}</td>
                 </tr>`
