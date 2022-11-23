@@ -28,7 +28,7 @@ function login(e){
     var user=localStorage.getItem(username);
     
     var data=JSON.parse(user);
-
+    let loginForm1=document.querySelector('.login-form');
     if(username=='' || password==''){
         alert("please enter your username and password");
     }
@@ -43,6 +43,7 @@ function login(e){
         sessionStorage.setItem("uname",username)
         
         document.getElementById("user-name").innerHTML=sessionStorage.uname;
+        loginForm1.classList.remove('active');
     }   
      
 }
