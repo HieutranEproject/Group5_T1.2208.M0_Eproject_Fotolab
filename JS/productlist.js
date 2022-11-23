@@ -302,7 +302,7 @@ function productDetail(){
                   </div>
                 </div>
                 <div class="col-sm-6 bg-dark text-white p-3">
-                  <div class="container mt-3 ">
+                 
                     <h2>${v.name.toUpperCase()}</h2>
                     <p>${v.description}</p>            
                     <table class="table"  style="color:#fff ; ">
@@ -409,7 +409,7 @@ function productDetail(){
                   </div>
                 </div>
                 <div class="col-sm-6 bg-dark text-white p-3">
-                  <div class="container mt-3 ">
+                 
                     <h2>${v.name.toUpperCase()}</h2>
                     <p>${v.description}</p>            
                     <table class="table"  style="color:#fff ; ">
@@ -516,7 +516,7 @@ function productDetail(){
                   </div>
                 </div>
                 <div class="col-sm-6 bg-dark text-white p-3">
-                  <div class="container mt-3 ">
+                  
                     <h2>${v.name.toUpperCase()}</h2>
                     <p>${v.description}</p>            
                     <table class="table"  style="color:#fff ; ">
@@ -622,7 +622,7 @@ function productDetail(){
                   </div>
                 </div>
                 <div class="col-sm-6 bg-dark text-white p-3">
-                  <div class="container mt-3 ">
+                 
                     <h2>${v.name.toUpperCase()}</h2>
                     <p>${v.description}</p>            
                     <table class="table"  style="color:#fff ; ">
@@ -728,7 +728,7 @@ function productDetail(){
                   </div>
                 </div>
                 <div class="col-sm-6 bg-dark text-white p-3">
-                  <div class="container mt-3 ">
+                 
                     <h2>${v.name.toUpperCase()}</h2>
                     <p>${v.description}</p>            
                     <table class="table"  style="color:#fff ; ">
@@ -834,7 +834,7 @@ function productDetail(){
                   </div>
                 </div>
                 <div class="col-sm-6 bg-dark text-white p-3">
-                  <div class="container mt-3 ">
+                  
                     <h2>${v.name.toUpperCase()}</h2>
                     <p>${v.description}</p>            
                     <table class="table"  style="color:#fff ; ">
