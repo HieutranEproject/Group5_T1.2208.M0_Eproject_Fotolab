@@ -1622,18 +1622,23 @@ width: 100%;
 /* tab links */
 .tab {
   overflow: hidden;
-  background-color: #2f3142;
-  color: #fff;
+  background-color:#222;
 }
 button{
-  
-  color: black;
-  }
+ 
+  color: #fff;
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #fff;
-  color: #222;
+  }
+/* Style the buttons inside the tab */
+ .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+margin-right: 10px;
+  transition: 0.3s;
+  font-size: 17px;
 }
 /* Style the tab content */
 .tabcontent {
