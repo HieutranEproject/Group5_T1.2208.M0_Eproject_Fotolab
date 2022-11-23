@@ -12,7 +12,7 @@
 
         var inArray = $.inArray(productID, list); // check selected product existed in array list ?
         if (inArray < 0) {
-            if (list.length < 4) {
+            if (list.length < 3) {
                 list.push(productID);
 
                 var displayName = $(this).parents('.selectProduct').attr('data-name');
